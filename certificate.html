@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Download</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Certificate Download</h1>
+        <form id="certificateForm">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" required>
+            <button type="button" onclick="searchAndDisplay()">Search</button>
+
+            <div id="result" class="hidden">
+                <!-- Display user information here -->
+                <p id="userInfo"></p>
+                <button type="button" id="downloadButton" class="hidden" onclick="downloadCertificate()">Download Certificate</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
