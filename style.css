@@ -1,0 +1,60 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #CADCFC;
+}
+
+.container {
+    text-align: left; /* Align text to the left */
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Make labels bold */
+}
+
+input, button {
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+button {
+    background-color:white; /* Button background color */
+    color: navy; /* Button text color */
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: navy; /* Hover background color */
+    color: white; /* Hover text color */
+}
+
+.hidden {
+    display: none;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
+}

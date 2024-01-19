@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.head{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+.links{
+    margin: 10px;
+    display: flex;
+    font-weight: bold;
+}
+
+.cert{
+    padding: 10px;
+    margin: 10px;
+   
+}
+.cert a{
+    color: white;
+    background-color: navy;
+    padding: 10px;
+    border-radius: 3px;
+}
+.head img{
+    margin: 10px;
+    width: 5rem;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+.sec{
+    width: 100%;
+    height: 90vh;
+    background-color: #cadcfc;
+    display: flex;
+    justify-content: space-around;
+}
+.conimg img{
+    margin: 50px;
+    width: 36rem;
+    height: 70vh;
+    border-radius: 12px;
+}
+.content{
+    margin-top: 100px;
+    color: navy;
+
+}
+.cardbg{
+    width: 100%;
+    height: 70vh;
+    background-color: #cadcfc;
+    display: flex;
+    justify-content: space-around;
+}
+.cardtxt{
+    text-align: center;
+    color: navy;
+    text-decoration: solid;
+    background-color: #cadcfc;
+    text-decoration: underline;
+}
+
+.card img{
+    width: 15rem;
+}
+.card{
+    margin-top: 20px;
+    padding: 10px;
+    background-color:white;
+    width: 16rem;
+    height: 50vh;
+    border-radius: 4px;
+}
+.clsjoin{
+  
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    background-color: navy;
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:navy;
+    border-radius: 12px;
+}
+
+.address {
+    color: white;
+    width: 48%;
+}
+
+.form {
+    width: 48%;
+}
+
+label {
+    color: white;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .address,
+    .form {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+.contactbg{
+    background-color: #cadcfc;
+    width: 100%;
+    padding: 10px;
+}
+
+footer{
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color:azure;
+}
+.Footlogo img{
+    padding: 10px;
+    width: 10rem;
+}
+.social img{
+    width: 7rem;
+    padding: 15px;
+}
+.use{
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+    background-color: navy;
+}
+
+.social img:hover{
+    margin: 5px;
+    border-radius: 50%;
+   background-color: navy;
+}
+.Footlinks li:hover a{
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
