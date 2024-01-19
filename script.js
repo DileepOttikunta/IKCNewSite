@@ -35,7 +35,7 @@ function downloadCertificate() {
     if (user) {
         // Create a download link for the user's PDF file
         const link = document.createElement('a');
-        link.href = `PDF/${user.pdfFileName}`;
+        link.href = `${user.pdfFileName}`;
         link.download = `${user.pdfFileName}`;
 
         // Simulate a click on the link to trigger the download
